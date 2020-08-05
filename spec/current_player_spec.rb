@@ -1,4 +1,3 @@
-require_relative '../lib/current_player.rb'
 
 describe "./lib/current_player.rb" do
   describe '#turn_count' do
@@ -29,5 +28,5 @@ describe "./lib/current_player.rb" do
 
       expect(current_player(board)).to eq("X")
     end
-  end  
+  end
 end
