@@ -12,8 +12,8 @@ end
 def current_player(board)
   counter = turn_count(board)
   if counter % 2 = 0
-    puts "X plays" 
+    puts "X plays"
   else
-    puts "O" 
+    puts "O"
   end
 end
